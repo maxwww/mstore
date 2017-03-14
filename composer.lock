@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "d597f4f1db1776af73ad5227f524c536",
+    "content-hash": "6c6ec751f1d1036f17eda64da87ef457",
+    "packages": [
+        {
+            "name": "msoroka/framework",
+            "version": "dev-dev",
+            "dist": {
+                "type": "path",
+                "url": "/home/user/www/framework/",
+                "reference": "72a870eaab2ad1097c6dd452a3afa6af33a88781",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Msoroka\\Framework\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Maksym Soroka",
+                    "email": "ms.mikro.1@gmail.com"
+                }
+            ],
+            "description": "It is simple framework"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "msoroka/framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

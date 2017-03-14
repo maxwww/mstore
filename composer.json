@@ -1,0 +1,21 @@
+{
+  "name": "msoroka/store",
+  "description": "Application",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksim Soroka",
+      "email": "ms.mikro.1@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "msoroka/framework": "dev-dev"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "/home/user/www/framework"
+    }
+  ]
+}
