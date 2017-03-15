@@ -13,7 +13,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/user/www/framework/",
-                "reference": "72a870eaab2ad1097c6dd452a3afa6af33a88781",
+                "reference": "4853cc451fa208e998784ba6970c0441271d3dbe",
                 "shasum": null
             },
             "type": "library",
