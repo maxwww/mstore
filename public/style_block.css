@@ -1,0 +1,65 @@
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body{height: 100%;}
+
+body{
+    background: #fff;
+    color: #000;
+}
+
+.wrapper{
+    width: 900px;
+    min-height: 100%;
+    margin: auto;
+    background: url(bg.jpg);
+}
+
+.header{
+    height: 100px;
+    background: purple;
+}
+
+.left{
+    width: 250px;
+    float: left;
+}
+
+.content{
+    width: 650px;
+    color: #000;
+    float: left;
+}
+
+.footer{
+    height: 40px;
+    background: green;
+    width: 900px;
+    margin: -40px auto 0;
+}
+
+.clear{clear: both;}
+.rasporka{height: 40px;}
+
+p{padding: 10px;}

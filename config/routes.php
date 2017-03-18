@@ -4,13 +4,13 @@ return [
     "root" => [
         "pattern" => "/",
         "method" => "GET",
-        "action" => "Mystore\\IndexController@index"
+        "action" => "Mystore\\Controllers\\IndexController@index"
     ],
     "product_list" =>
         [
             "pattern" => "/product",
             "method" => "GET",
-            "action" => "GoodController@getAllGoods"
+            "action" => "Mystore\\Controllers\\IndexController@getAllproducts"
         ],
     "single_product" => [
         "pattern" => "/product/{id}",
@@ -18,6 +18,6 @@ return [
         "variables" => [
             "id" => "\d+"
         ],
-        "action" => "Mystore\\IndexController@getProduct"
+        "action" => "Mystore\\Controllers\\IndexController@getProduct"
     ]
 ];

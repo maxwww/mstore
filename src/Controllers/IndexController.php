@@ -1,17 +1,19 @@
 <?php
 
-namespace Mystore;
+namespace Mystore\Controllers;
 
+use Msoroka\Framework\Controller\Controller;
 use Msoroka\Framework\Request\Request;
 use Msoroka\Framework\Response\JsonResponse;
 use Msoroka\Framework\Response\RedirectResponse;
 use Msoroka\Framework\Router\Router;
+use Msoroka\Framework\Validation\Validator;
 
 /**
  * Class IndexController
  * @package Mystore
  */
-class IndexController
+class IndexController extends Controller
 {
     /**
      * @return RedirectResponse
@@ -27,7 +29,9 @@ class IndexController
      */
     public function getProduct($id)
     {
-        echo sprintf("Hi! You requested %s with color", $id);
+       return $this->render('product', [
+           'id' => $id,
+       ]);
     }
 
 }

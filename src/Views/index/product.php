@@ -1,0 +1,19 @@
+<h3>Product #<?= $id?></h3>
+<table>
+    <tr>
+        <td>Name</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Price</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>IMG</td>
+        <td></td>
+    </tr>
+</table>
